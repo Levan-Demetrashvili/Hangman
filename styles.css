@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*! Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+body {
+  background-color: #c1d72e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 8px;
+}
+
+button {
+  width: 180px;
+  font-size: 1.35rem;
+  background-color: transparent;
+
+  border: 1px solid #fff;
+  border-radius: 5px;
+  outline: none;
+
+  padding: 18px 10px;
+  margin: 10px;
+
+  cursor: pointer;
+}
+
+/** Heading */
+
+h1,
+h2 {
+  font-size: 2.925rem;
+  font-weight: 100;
+  margin-block: 5px;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+/** Texts */
+h3,
+.category-text,
+.lives-text {
+  font-size: 1.8rem;
+  margin-block: 1em;
+}
+
+/** List items */
+#alphabet {
+  max-width: 900px;
+  margin: 15px auto;
+}
+#alphabet .letter {
+  width: 35px;
+  height: 30px;
+
+  text-align: center;
+  font-size: 1.125rem;
+  color: #c1d72e;
+  background-color: #fff;
+  list-style: none;
+
+  border: 1px solid white;
+  border-radius: 5px;
+
+  margin: 0 10px 10px 0;
+  padding-block: 10px 0;
+
+  cursor: pointer;
+  float: left;
+}
+
+/* guessing word list items*/
+#word li {
+  font-size: 1.8rem;
+  list-style: none;
+  padding: 0 10px;
+  float: left;
+}
+
+/** canvas **/
+canvas {
+  color: #fff;
+  padding: 15px;
+  border: 2px dashed #fff;
+}
