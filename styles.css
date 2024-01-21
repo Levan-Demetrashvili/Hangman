@@ -80,7 +80,7 @@ h3,
   float: left;
 }
 
-/* guessing word list items*/
+/** guessing word list items*/
 #word li {
   font-size: 1.8rem;
   list-style: none;
@@ -93,9 +93,10 @@ canvas {
   color: #fff;
   padding: 15px;
   border: 2px dashed #fff;
+  width: 18.75rem;
 }
 
-/** hovers */
+/*^ transitions */
 
 button:hover {
   color: #c1d72e;
@@ -108,4 +109,10 @@ button:hover {
 }
 .active {
   opacity: 0.4;
+}
+
+@media only screen and (max-width: 450px) {
+  html {
+    font-size: 80%;
+  }
 }
